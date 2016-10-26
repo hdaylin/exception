@@ -29,8 +29,12 @@ public class Exception {
   
   }catch(ArithmeticException e){
     System.out.println("Somethings not right here");  
+  
+  
   }
-
+        finally {
+            System.out.println("finally block will execute.");
+        }
   } 
 
 } 
